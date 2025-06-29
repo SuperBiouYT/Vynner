@@ -1,0 +1,30 @@
+vynner
+vynner is a Python-based ransomware simulation inspired by the infamous WannaCry malware. It features a convincing user interface designed to educate and demonstrate ransomware behavior without causing any real harm.
+
+Key Features
+Fullscreen graphical interface with authentic WannaCry-inspired colors and style
+
+Countdown timer representing a 24-hour ransom deadline
+
+Secure input for a decryption key with limited attempts (3 max)
+
+Fake “PAY” button that redirects to a Rickroll video as a prank
+
+After multiple failed attempts, triggers a realistic fake Blue Screen of Death (BSOD) with animated text and system beeps
+
+Written purely in Python using Tkinter, no external dependencies required
+
+Sounds require Windows platform due to usage of the winsound module
+
+Intended Use
+vynner is designed for educational and demonstration purposes only. It can be used to better understand ransomware mechanisms and user interface manipulation techniques. It does not encrypt or damage any files.
+
+Requirements
+Python 3.x
+
+Windows OS (for sound functionality)
+
+Tkinter module (usually included with standard Python installations)
+
+Usage
+Run the script, observe the ransomware simulation, try entering keys, and experience the escalating interface and fake BSOD as part of the demonstration.
